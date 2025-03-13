@@ -14,7 +14,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: mjanez/ckan-spatial
+  IMAGE_NAME: BNELab/ckan-spatial
   CONTEXT: .
   BRANCH: ${{ github.head_ref }}
   # Use Dockerfile.py3.* for only Debian-based Python images 
